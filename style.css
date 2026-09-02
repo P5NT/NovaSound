@@ -611,21 +611,22 @@ header h2:hover {
 
 @media (max-width: 560px) {
   header {
-    gap: 20px;
+    gap: 80px;
+    padding: 25px;
   }
 
   header h2 {
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 0;
   }
 
   .nav {
-    gap: 10px;
+    gap: 5px;
     margin-right: 0;
   }
 
   .nav a {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   /* Hero Section */
@@ -633,8 +634,8 @@ header h2:hover {
   .hero {
     width: 100%;
     box-sizing: border-box;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 150px;
+    padding-bottom: 25px;
     flex-direction: column;
     gap: 0;
     align-items: center;
@@ -642,7 +643,7 @@ header h2:hover {
   }
 
   .product-image {
-    width: 90%;
+    width: 80%;
     max-width: 350px;
     height: auto;
     aspect-ratio: 1 / 1;
@@ -663,38 +664,65 @@ header h2:hover {
   }
 
   .hero-text h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .hero-text h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .hero-text h3 {
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 0;
   }
 
   .hero-text h4 {
-    font-size: 13px;
+    font-size: 9px;
   }
 
   .hero-text h5 {
-    font-size: 55px;
+    font-size: 50px;
   }
 
   .hero-text span {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .hero-text p {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .hero-text button {
-    font-size: 20px;
+    font-size: 18px;
     width: 170px;
     height: 50px;
+  }
+
+  .features h2 {
+    font-size: 25px;
+  }
+
+  .feature-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 18px;
+  }
+
+  .feature-card {
+    padding: 15px;
+    width: 300px;
+  }
+
+  .up h3 {
+    font-size: 20px;
+  }
+
+  .feature-card p {
+    font-size: 12px;
+  }
+
+  .card-image {
+    width: 20px;
+    height: 20px;
   }
 
   /* Why NovaSound X1? */
@@ -714,5 +742,12 @@ header h2:hover {
 
   .upper img {
     width: 50px;
+  }
+
+  /* Product Options */
+
+  .selected-image {
+    width: 250px;
+    height: 250px;
   }
 }
