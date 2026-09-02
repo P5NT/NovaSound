@@ -616,15 +616,16 @@ header h2:hover {
 
   header h2 {
     font-size: 20px;
+    margin-left: 0;
   }
 
   .nav {
-    gap: 5px;
+    gap: 10px;
     margin-right: 0;
   }
 
   .nav a {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   /* Hero Section */
