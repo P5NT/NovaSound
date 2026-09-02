@@ -611,13 +611,11 @@ header h2:hover {
 
 @media (max-width: 560px) {
   header {
-    gap: 80px;
-    padding: 25px;
+    gap: 20px;
   }
 
   header h2 {
-    font-size: 30px;
-    margin-left: 0;
+    font-size: 20px;
   }
 
   .nav {
