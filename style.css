@@ -431,6 +431,10 @@ header h2:hover {
   width: 150px;
 }
 
+footer {
+  display: none;
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .hero {
@@ -748,5 +752,61 @@ header h2:hover {
   .selected-image {
     width: 250px;
     height: 250px;
+  }
+
+  .why {
+    padding-bottom: 100px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary-color);
+    border-top: 3px solid var(--accent-color);
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    right: auto;
+    margin: 0;
+    /* height: 50px; */
+    align-items: center;
+    justify-content: center;
+    /* overflow-x: hidden; */
+    gap: 80px;
+    transform: none;
+  }
+
+  header {
+    position: relative;
+    border-bottom: 3px solid var(--accent-color);
+  }
+
+  .hero {
+    padding-top: 25px;
+  }
+
+  header h2 {
+    font-size: 23px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font);
+  }
+
+  footer i {
+    font-size: 22px;
   }
 }
