@@ -542,8 +542,8 @@ footer {
   }
 
   .product-image {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin-left: 0;
     margin-bottom: 0;
   }
@@ -551,21 +551,21 @@ footer {
   .hero-text {
     text-align: center;
     margin-bottom: 0;
-    max-width: 400px;
+    max-width: 300px;
     margin-top: 0;
   }
 
   .hero-text h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .hero-text h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .hero-text h3 {
     margin-top: 2px;
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .hero-text h4 {
@@ -584,7 +584,7 @@ footer {
     font-family: var(--font-2);
     color: var(--muted-color);
     font-size: 13px;
-    max-width: 350px;
+    max-width: 300px;
   }
 
   .hero-text button {
@@ -603,21 +603,23 @@ footer {
   /* Features */
 
   .features h2 {
-    font-size: 25px;
+    font-size: 25 px;
+    width: 100%;
+    text-align: center;
   }
 
   .feature-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 7px;
+    gap: 5px;
   }
 
   .feature-card {
     display: flex;
     flex-direction: column;
     border: 2px solid var(--accent-color);
-    padding: 20px;
-    width: 145px;
+    padding: 13px 20px;
+    width: 135px;
     border-radius: 20px;
   }
 
@@ -625,12 +627,12 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 7px;
   }
 
   .up h3 {
     font-family: var(--font);
-    font-size: 20px;
+    font-size: 13px;
     margin: 0;
     color: var(--accent-color);
   }
@@ -669,7 +671,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    max-width: 350px;
+    max-width: 300px;
   }
 
   .reason h3 {
@@ -719,7 +721,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 0;
-    gap: 60px;
+    gap: 40px;
   }
 
   footer a {
